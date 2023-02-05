@@ -26,12 +26,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Welid34/Assigment1.git"
+    "url": "git+https://github.com/Welid34/Comp229_Assignment1.git"
   },
   "author": "Welid Adem",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Welid34/Assigment1/issues"
+    "url": "https://github.com/Welid34/Comp229_Assignment1.git"
   },
-  "homepage": "https://github.com/Welid34/Assigment1#readme"
+  "homepage": "https://github.com/Welid34/Comp229_Assignment1.git"
 }
