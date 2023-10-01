@@ -1,0 +1,70 @@
+<!-- Welid Adem
+    301020447
+   Sep 25 2023--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% title="Contact"; %> 
+    <%- include ../sections/main-nav %>
+    <%- include ../sections/header %>
+</head>
+<body>
+
+    <div id="Allpage">
+        <header><h1>
+            Contact me
+         </h1>
+        </header>
+        
+           
+    
+            <main>
+                <form action="mailto:wadem@my.centennialcollege.ca" method="POST">
+                <table>
+        
+                <tr>
+                    <td> <class="fieldLabel"><strong>First name </strong></td>
+                    <td><input type="text" name="First name" tabindex="1"></td>
+                </tr>
+    
+                <tr>
+                    <td> <class="fieldLabel"><strong>Last name </strong></td>
+                    <td><input type="text" name="Last name" tabindex="3"></td>
+                </tr>
+    
+                <tr>
+                    <td> <class="fieldLabel"><strong>Phone number</strong></td>
+                    <td><input type="text" name="Phone number" tabindex="5"></td>
+                </tr>
+    
+                <tr>
+                    <td> <class="fieldLabel"><strong>Email </strong></td>
+                    <td><input type="text" name="Email" tabindex="7"></td>
+                </tr>
+    
+                
+    
+                   
+    
+                    <tr>
+                        <td class="fieldLabel">Comments </td>
+                        <td><textarea name="Comments " tabindex="17" id="textarea" cols="40" rows="6"></textarea></td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="fieldLabel"><input type="submit" value="Submit"></td>
+                    </tr>
+    
+                
+            </td>
+            </table>
+            </form>
+            </main>
+
+</body>
+<footer>
+        <%- include ../sections/bottom-nav %> 
+</footer> 
+    
+    
+</head>
